@@ -1,13 +1,13 @@
 {
   "name": "proy_06",
   "version": "1.0.0",
-  "description": "",
+  "description": "dfdff df df",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "d ffsdf df",
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0"
