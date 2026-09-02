@@ -1,3 +1,5 @@
+// vamos a cambiar el proyecto a un proyecto de nodejs
+
 require('colors');
 
 const math = require('./proy_modules/math.js')
@@ -10,7 +12,8 @@ const main = async () => {
     for (const numero of numeros) {
         const invertidoComoNumero = math.invertirNumero(numero);
         const invertidoComoCadena = math.invertirNumeroComoCadena(numero);
-        console.log("El número '%s' es '%s' invertido como número, y '%s' como cadena", numero, invertidoComoNumero, invertidoComoCadena);
+        console.log("El número '%s' es '%s' invertido como número, y '%s' como cadena", 
+                    numero, invertidoComoNumero, invertidoComoCadena);
     }
 
     const textos = ['Hola Sena', 'Ficha 2798618', 'Análisis y desarrollo de software']

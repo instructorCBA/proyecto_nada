@@ -1,8 +1,13 @@
+// definimos la variable math como constante y de tipo objeto
 const math = {};
 
-const invertirNumero = numero => {
+//definimos la funcion flecha invertirNumero como constante con parametro numero
+const invertirNumero = (numero) => {
+    //definimos invertido como variable  y de tipo number
     let invertido = 0;
+    //ciclo while que se repite mientras numero sea diferente de 0
     while (numero != 0) {
+        
         invertido = 10 * invertido + numero % 10
         numero = (Math.floor(numero / 10))
     }
@@ -20,6 +25,7 @@ const invertirTexto = texto => {
     const joinedText = reversedText.join('');
     return joinedText;
 };
+
 
 const invertirArreglo = arreglo => {
     const reverseObject = arreglo.reverse();
